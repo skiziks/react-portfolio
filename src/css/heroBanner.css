@@ -2,6 +2,7 @@
     width: 100%;
     height: 88vh;
     margin-top: 12vh;
+    position: relative;
     /* border: solid red; */
 
     display: flex;
@@ -93,25 +94,13 @@
     position: relative;
 }
 
-.metier::before {
-    content: '';
-    position: absolute;
-    width: 170px;
-    height: 30px;
-    background-color: #8367C7;
-    opacity: .64;
-    top: 35px;
-    right: -10px;
-    z-index: -999;
-}
-
 .hero-banner::before {
     content: '';
     position: absolute;
     background-image: url('../assets/decorRight.svg');
     background-repeat: no-repeat;
     background-size: contain;
-    top: 0;
+    top: -12vh;
     right: 0;
     width: 20em;
     height: 20em;
@@ -157,5 +146,17 @@
 
     .hero-banner__article {
         flex-direction: row;
+    }
+
+    .metier::before {
+        content: '';
+        position: absolute;
+        width: 170px;
+        height: 30px;
+        background-color: #8367C7;
+        opacity: .64;
+        top: 35px;
+        right: -10px;
+        z-index: -999;
     }
 }

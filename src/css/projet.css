@@ -55,7 +55,7 @@
         z-index: 1;
     }
 
-    h3::before {
+    /* h3::before {
         content: '';
         position: absolute;
         width: 80px;
@@ -65,7 +65,7 @@
         top: 12px;
         right: 0;
         z-index: -1;
-    }
+    } */
 
     a {
         img {

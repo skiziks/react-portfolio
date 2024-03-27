@@ -61,10 +61,27 @@
     color: #C1C1C1;
 }
 
+footer::after {
+    content: '';
+    position: absolute;
+    background-image: url('../assets/decorLeft.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: 0;
+    left: 0;
+    width: 20em;
+    height: 20em;
+    z-index: -9999;
+}
+
 @media screen and (min-width: 768px) {
 
-    .footer__contacts {
+    footer::after {
+        width: 25em;
+        height: 25em;
+    }
 
+    .footer__contacts {
         height: 500px;
     }
 

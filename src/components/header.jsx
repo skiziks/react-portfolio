@@ -61,17 +61,8 @@ const Header = ({ t }) => {
                     <input id='toggleLanguage' type='button' onClick={switchLanguage} />
                     <label htmlFor="toggleLanguage"><span className={langueIsActive ? 'white' : 'black'}>FR</span> | <span className={langueIsActive ? 'black' : 'white'}>EN</span></label>
                 </div>
-                {/* <div className='language languageActive'>
-                    <input
-                        type="checkbox"
-                        id="toggleLanguage"
-                        checked={language === 'fr'}
-                        onChange={switchLanguage}
-                    />
-                    <label htmlFor="toggleLanguage"></label>
-                </div> */}
             </div>
-            <ul id='burger__links' className={burgerClass}>
+            <div id='burger__links' className={burgerClass}>
                 <li className='li__burger'><a onClick={handleBurger} href='#propos'>{t('header.about')}</a></li>
                 <li className='li__burger'><a onClick={handleBurger} href='#projets'>{t('header.projects')}</a></li>
                 <li className='li__burger'><a onClick={handleBurger} href='#contact'>{t('header.contact')}</a></li>
@@ -80,7 +71,7 @@ const Header = ({ t }) => {
                     <input id='toggleLanguage' type='button' onClick={switchLanguage} />
                     <label htmlFor="toggleLanguage"><span className={langueIsActive ? 'white' : 'black'}>FR</span> | <span className={langueIsActive ? 'black' : 'white'}>EN</span></label>
                 </div>
-            </ul>
+            </div>
         </header>
     );
 }
