@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.1f518210.css",
+    "main.js": "/react-portfolio/static/js/main.70e49a77.js",
+    "static/js/453.1407b060.chunk.js": "/react-portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/PPprofil.png": "/react-portfolio/static/media/PPprofil.84da1c04fbcbb4ac3b75.png",
+    "static/media/sourisHeroBanner.svg": "/react-portfolio/static/media/sourisHeroBanner.45a44d02508d58dd41cdf5ad8d4dac20.svg",
+    "static/media/github.svg": "/react-portfolio/static/media/github.d444a9186caf614861f8a9863c724e89.svg",
+    "static/media/iconLien.svg": "/react-portfolio/static/media/iconLien.ee442a328e01a34df7550701c1914c90.svg",
+    "static/media/linkedin.svg": "/react-portfolio/static/media/linkedin.a559c1f24790e35f1002f4eceb85d5bc.svg",
+    "static/media/flechesHeroBanner.svg": "/react-portfolio/static/media/flechesHeroBanner.eb39b9e5a8c9575a9dd926fac571cb03.svg",
+    "static/media/decorRight.svg": "/react-portfolio/static/media/decorRight.9d974876f4f868b1a1e3.svg",
+    "static/media/decorLeft.svg": "/react-portfolio/static/media/decorLeft.69e3a81b8231f89cecf6.svg",
+    "static/media/mail.svg": "/react-portfolio/static/media/mail.17fe2ce9519ef5d6d2cda5cbf2174ca5.svg",
+    "index.html": "/react-portfolio/index.html",
+    "static/media/btt.svg": "/react-portfolio/static/media/btt.3875bc5a6ec6a7a884b57a0d026baf58.svg",
+    "static/media/NL.svg": "/react-portfolio/static/media/NL.d1475f554a235cf1dfa4ccf015af9e1d.svg",
+    "main.1f518210.css.map": "/react-portfolio/static/css/main.1f518210.css.map",
+    "main.70e49a77.js.map": "/react-portfolio/static/js/main.70e49a77.js.map",
+    "453.1407b060.chunk.js.map": "/react-portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f518210.css",
+    "static/js/main.70e49a77.js"
+  ]
+}
