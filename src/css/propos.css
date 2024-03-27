@@ -1,0 +1,79 @@
+.profil {
+    float: left;
+    width: clamp(150px, 40%, 300px);
+    margin-right: 20px;
+    margin-bottom: 10px;
+    z-index: -99999;
+}
+
+.section__propos {
+    width: 90%;
+    margin: 100px auto;
+    position: relative;
+}
+
+.section__propos::before {
+    content: '';
+    position: absolute;
+    background-image: url('../assets/decorLeft.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: rotate(90deg);
+    top: -100.5px;
+    left: -5.55%;
+    width: 20em;
+    height: 20em;
+    z-index: -9999;
+}
+
+.propos__title {
+    position: relative;
+    width: fit-content;
+}
+
+.effect {
+    font-family: 'Rubik', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+/* .propos__title::before {
+    content: '';
+    position: absolute;
+    width: 140px;
+    height: 20px;
+    background-color: #8367C7;
+    opacity: .71;
+    top: 15px;
+    right: 0;
+    z-index: -999;
+} */
+
+
+@media screen and (min-width: 768px) {
+    .section__propos::before {
+        width: 25em;
+        height: 25em;
+    }
+
+    .profil {
+        margin-right: 5%;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .propos__title {
+        margin-bottom: 50px;
+        font-size: 40px;
+    }
+
+    .effect::before {
+        width: 180px;
+        height: 30px;
+    }
+}

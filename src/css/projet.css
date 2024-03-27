@@ -1,0 +1,135 @@
+.project__container {
+    /* border: solid red; */
+    width: 100%;
+    height: 30em;
+    position: relative;
+    margin: 100px 0;
+}
+
+
+.project__image {
+    /* border: solid brown; */
+    position: absolute;
+    top: 0;
+    /* left: 0; */
+    width: 90%;
+    height: 60%;
+    z-index: -999;
+    overflow: hidden;
+    border-radius: 30px;
+    /* box-shadow: white -8px 10px 30px -15px; */
+}
+
+.project__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project__items {
+    position: absolute;
+    bottom: 0;
+    /* right: 0; */
+    width: 90%;
+    height: fit-content;
+    /* border: solid purple; */
+    background-color: rgba(211, 231, 228, 0.8);
+    border-radius: 30px;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.project__title_link {
+    /* border: solid green; */
+    display: flex;
+    justify-content: space-between;
+
+    h3 {
+        color: black;
+        font-family: "Rubik", sans-serif;
+        font-style: italic;
+        font-size: 1.5rem;
+        position: relative;
+        z-index: 1;
+    }
+
+    h3::before {
+        content: '';
+        position: absolute;
+        width: 80px;
+        height: 20px;
+        background-color: #8367C7;
+        opacity: .71;
+        top: 12px;
+        right: 0;
+        z-index: -1;
+    }
+
+    a {
+        img {
+            width: 2rem;
+            height: 2rem;
+            margin: 5px 10px 0 0;
+            transition: ease-in-out 0.3s;
+        }
+
+        img:hover {
+            transform: scale(1.4);
+            transition: ease-in-out 0.3s;
+        }
+    }
+}
+
+.project__description,
+.project__why {
+    /* border: solid blue; */
+    overflow: auto;
+    font-size: 14px;
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-weight: 600;
+}
+
+.project__techs {
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+    margin-top: 10px;
+
+    li {
+        img {
+            width: 3rem;
+            height: 3rem;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .project__image {
+        width: 60%;
+        height: 80%;
+    }
+
+    .project__description,
+    .project__why {
+        font-size: 18px;
+    }
+
+    .project__items {
+        padding: 2%;
+        gap: 2rem;
+        width: 70%;
+    }
+
+    .project__techs {
+        gap: 2rem;
+    }
+
+    .imageLink {
+        width: 3rem;
+        height: 3rem;
+    }
+}

@@ -1,0 +1,112 @@
+{
+    "header": {
+        "home": "Home",
+        "about": "About",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "hero": {
+        "job": "Developer",
+        "CV": "Discover my CV",
+        "contact": "Contact me"
+    },
+    "about": {
+        "title": "Who am I ?",
+        "first-part": "My name is Nicolas, and I am currently in my second year of higher studies in MMI (Multimedia and Internet Professions) where I practice web development, design, web referencing (SEO), communication, and audiovisual work.",
+        "second-part": "I am passionate about web development and video games, and I am always looking for new technologies to learn and master. I am a versatile developer who can work on both the front and back end of a project.",
+        "third-part": "In the future, I aim to pursue a master's degree in web development, video games, or mobile development, which I see as rich environments to fully unleash my skills and creativity.",
+        "fourth-part": "Currently, I use web technologies such as programming languages like HTML, CSS, JavaScript, and PHP for dynamic pages. I also work with well-known frameworks such as Symfony, React JS, React Native, and Angular JS.",
+        "fifth-part": "In the web development field, I am a full-stack developer due to my versatility with learned and mastered technologies, though I have a strong preference for the backend with PHP, node.js, or Symfony for optimized and powerful applications."
+    },
+    "description": {
+        "title": "About me",
+        "secondpart": "I am"
+    },
+    "skills": {
+        "title": "What i master"
+    },
+    "projects": {
+        "title": "My projects",
+        "inputsFilter": {
+            "all": "All",
+            "web": "Web",
+            "gameApp": "Games / App",
+            "audiovisual": "Audiovisual"
+        }
+    },
+    "contact": {
+        "title": "A question, a project ?",
+        "subtitle": "Contact me !"
+    },
+    "footer": {
+        "title": "Nicolas Lerond",
+        "text": "© 2024 Nicolas Lerond - All rights reserved"
+    },
+    "listProjects": {
+        "MMIAPP": {
+            "title": "MMI Web Application",
+            "description": "In collaboration with a graphic designer and a front-end developer, we designed an application following the CRUD model to manage the assignments of our class. An authentication system is implemented to allow users to log in and track their progress on each assignment, which is directly saved in the database.",
+            "pourquoi": "We decided to undertake this project because we felt the need for a digital platform to track our assignments similar to Pronote in high school. After its development, our entire class used it to follow their progress on assignments and due dates."
+        },
+        "appli_php": {
+            "title": "PHP Web Application",
+            "description": "As part of an MMI project, I developed a complete web application following the CRUD model, allowing all students to add their own projects they have completed during their years of study. When visited, the first page is a personalized dashboard showing the statistics of the logged-in profile, but it is also possible to view projects of all others."
+        },
+        "site_gouvernementale": {
+            "title": "Government Website / Awareness Campaign",
+            "description": "For our final project in the first year of training, we worked as a team to create an awareness campaign on the risks of social media. In this project, I was responsible for the development of the website and its features."
+        },
+        "site_meteo": {
+            "title": "Weather Website",
+            "description": "As part of a personal project where I began learning the React JS framework, I developed a weather website using the 'Open Weather MAP' API to retrieve real-time data. Users can search for information on any city in the world with current meteorological data.",
+            "pourquoi": "I decided to undertake this project as it allowed me to learn and understand React JS, as well as the importance of APIs in web development."
+        },
+        "ffh": {
+            "title": "Far From Home",
+            "description": "I have long had a passion for video games and game development. This led me to start learning Unreal Engine 4 to create a 'Survival Horror' game named 'Far From Home'. I used a training course to help but gained many skills and am capable of continuing game development. The game's premise is: After an accident, you find yourself in a seemingly abandoned village. To fix your car, you must venture into the village and aid the survivors! Have the courage to venture into this world if you dare."
+        },
+        "nature": {
+            "title": "Nature & Me",
+            "description": "As a personal project, I developed a mobile application using Kotlin and Android Studio. It takes the form of a social network where users can share information about their plants.",
+            "pourquoi": "I decided to undertake this project to explore all aspects of development. Learning mobile development was a crucial step to be well-rounded in this field, and this project showed me the fascinating aspects of mobile development."
+        },
+        "dogscape": {
+            "title": "Dogscape",
+            "description": "During my web development training in MMI, I learned to create a JavaScript video game online. I designed this game where the player controls a dog followed by a ghost, and the goal is to escape the ghost by dodging enemies encountered along the way."
+        },
+        "bfa": {
+            "title": "BFA Advertisement",
+            "description": "Here is an advertisement created in 3 days of work using Motion Design for a completely fictional online bank.",
+            "pourquoi": "I created this advertisement because, at the time, I wanted to explore Motion Design, and this project was an opportunity to develop my skills in a concrete and interesting project."
+        },
+        "docuIA": {
+            "title": "Documentary on Artificial Intelligence",
+            "description": "As part of a group project, we created an 8-minute documentary on artificial intelligence, exploring its competition with human intelligence. I handled the editing and post-production using Davinci Resolve. In our group, we wrote the content of the documentary with the help of interviews with AI professionals."
+        },
+        "fourchette": {
+            "title": "Fork Advertisement",
+            "description": "For a group project, the task was to create an impactful advertisement for an unusual object. We chose a fork, emphasizing the sensual aspect of its rounded forms. I took care of the filming, starting from a storyboard, and then entirely handled the editing using Premiere Pro, including effects, sound, and color grading."
+        },
+        "video_metier": {
+            "title": "Video Presentation 'Video Editor'",
+            "description": "Following an interview with a professional video editor, our group created a presentation video about the video editing profession. During the interview, I filmed various sequences and transitions, which I later edited using Premiere Pro to achieve the desired result."
+        },
+        "blender": {
+            "title": "3D Modeling",
+            "description": "As part of a university project exploring 3D, we were tasked with creating a 3D scene representing anything we wished. The only requirement was to include a cube in the middle of the scene. I decided to recreate a theme I love, which is Japan, and created a cubic Japanese temple with associated ambiance.",
+            "pourquoi": "I have always been interested in 3D but was hesitant to delve into learning due to its perceived complexity. Through this project, where I developed this skill in a guided manner, my interest in 3D grew, and I plan to continue learning in this field."
+        },
+        "data": {
+            "title": "Data Visualization",
+            "description": "For a university project, we were tasked with creating a data visualization on a topic of our choice. I chose to visualize the meteorological evolution over time. I developed a dashboard with multiple graphs illustrating the data necessary to understand temperature trends and various meteorological phenomena. I also performed mathematical calculations for forecasts and to gain further insights from the graphs."
+        },
+        "labyrinthe": {
+            "title": "Labyrinth Video Game",
+            "description": "As part of a university project learning about video game development using C#, I designed a game where a ball navigates a labyrinth to collect all the red cubes before time runs out. Players can also move 4 parts of the labyrinth to navigate more quickly."
+        },
+        "webdoc": {
+            "title": "Web Documentary",
+            "description": "In a team effort, we created an interactive web documentary on the theme of our 'MMI' training program to give a concrete understanding of what we learn. This site puts the user in the shoes of a high school student who knows nothing about what we learn in the program and engages in a concrete end-of-first-year project. The objective is for the user to have an immersive experience through different chapters representing the poles of the program to understand what we learn in the training."
+        }
+    }
+}

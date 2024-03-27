@@ -1,0 +1,107 @@
+{
+    "header": {
+        "home": "Accueil",
+        "about": "A propos",
+        "projects": "Projets",
+        "contact": "Contact"
+    },
+    "hero": {
+        "job": "Développeur",
+        "CV": "Découvre mon CV",
+        "contact": "Contactez-moi"
+    },
+    "about": {
+        "title": "Qui suis-je ?",
+        "first-part": "Je m’appelle Nicolas, je suis actuellement en seconde année d’études supérieures en MMI (Métiers du Multimédia et de l’internet) où j’exerce le développement web, le design, le référencement web (SEO), la communication ou encore l’audiovisuel.",
+        "second-part": "Je me définit comme quelqu’un d’ambitieux et de persévérant qui n’a pas peur de l’échec pour progresser dans les différents domaines professionnels que je vise à l’avenir.",
+        "third-part": "Par la suite, je souhaite me diriger soit vers un master de développement web, jeux vidéo ou encore mobile qui sont pour moi des milieux riches pour libérer pleinement ses compétences et sa créativité.",
+        "fourth-part": "Pour l’instant, j’utilise des technologies web comme les langages de programmation HTML, CSS ou encore JavaScript et PHP pour des pages dynamiques. Mais également des framework connus tels que Symfony, React JS, React Native ou encore Angular JS.",
+        "fifth-part": "Dans le web, je suis un développeur full-stack de par ma pluridisciplinarité de technologies apprises et maitrisées mais j’ai une forte préférence pour le côté back-end avec PHP, node.js ou encore Symfony pour des applications optimisées et plus puissantes."
+    },
+    "skills": {
+        "title": "Ce que je maîtrise"
+    },
+    "projects": {
+        "title": "Mes projets",
+        "inputsFilter": {
+            "all": "Tous",
+            "web": "Web",
+            "gameApp": "Jeux / Applications",
+            "audiovisual": "Audiovisuel"
+        }
+    },
+    "contact": {
+        "title": "Une question, un projet ?",
+        "subtitle": "Contactez-moi !"
+    },
+    "footer": {
+        "text": "© 2024 Nicolas Lerond - Tous droits réservés"
+    },
+    "listProjects": {
+        "MMIAPP": {
+            "title": "Application Web MMI",
+            "description": "En collaboration avec une graphiste et un développeur front, nous avons conçu une application suivant le modèle CRUD dans le but de gérer les devoirs de notre promotion. Un système d'authentification est mis en place pour permettre aux utilisateurs de se connecter et de gérer leurs avancées sur chaque devoir qui est enregistré directement en base de données.",
+            "pourquoi": "Nous avons décidé de réaliser ce projet car nous estimions manquer d'un support numérique pour suivre nos devoirs de la même manière que Pronote au lycée. En effet, après la conception, toute notre promotion s'en est servie pour suivre leur avancée sur les devoirs et les dates de rendu."
+        },
+        "appli_php": {
+            "title": "Application web PHP",
+            "description": "Dans le cadre d'un projet MMI, j'ai réalisé une application web complète suivant le modèle CRUD permettant à tous les étudiants d'ajouter leurs propres projets qu'ils ont pu réaliser au cours de leurs années. Lorsque on le visite, la première page est un tableau de bord personnalisé car il représente les statistiques du profil connecté mais il est possible de voir les projets de tous les autres."
+        },
+        "site_gouvernementale": {
+            "title": "Site gouvernemental / campagne de sensibilisation",
+            "description": "Pour notre dernier projet de la première année de formation, nous avions eu à réaliser en équipe une campagne de sensibilisation sur les risques des réseaux sociaux. Sur le projet, je me suis occupé du développement du site web et des fonctionnalités présentes sur le site."
+        },
+        "site_meteo": {
+            "title": "Site Météo",
+            "description": "Dans le cadre d'un projet personnel où j'ai commencé mon apprentissage du framework React JS, j'ai réalisé un site web de météo en utilisant l'API 'Open Weather MAP' pour récupérer les données en temps réel. Il est possible de rechercher des informations sur toutes les villes du monde avec les vraies informations météorologiques actuelles.",
+            "pourquoi": "J'ai décidé de réaliser ce projet car il m'a permis de découvrir et d'apprendre l'utilisation dans un premier temps de React JS mais également l'utilisation d'une API qui est très importante dans le web."
+        },
+        "ffh": {
+            "title": "Far From Home",
+            "description": "Depuis longtemps, j'ai une passion pour les jeux vidéos mais également pour le développement de jeux vidéos. C'est pourquoi j'ai commencé mon apprentissage sur Unreal Engine 4 pour réaliser un jeu de type 'Survival Horror' nommé 'Far From Home'. Je me suis aidé d'une formation pour le réaliser mais j'en tire de nombreuses compétences et suis capable de continuer à développer des jeux vidéos. Le speech du jeu est : Après avoir subi un accident, vous vous retrouvez devant un village qui semble abandonné. Pour pouvoir réparer votre voiture, il faudra s'aventurer dans ce village et aider les survivants ! Ayez le courage de vous aventurer dans ce monde si vous en êtes capable."
+        },
+        "nature": {
+            "title": "Nature & moi",
+            "description": "Dans le cadre d'un projet personnel, j'ai réalisé une application mobile à l'aide de Kotlin et Android Studio qui prend la forme d'une sorte de réseau social où l'on peut partager ses plantes avec des informations particulières pour chacune.",
+            "pourquoi": "J'ai décidé de réaliser ce projet car je veux découvrir tous les aspects du développement donc apprendre le mobile est un premier pas pour être complet dans ce milieu et ce projet m'a montré que le mobile était un domaine très intéressant."
+        },
+        "dogscape": {
+            "title": "Dogscape",
+            "description": "Au cours de mon apprentissage du web, j'ai eu l'occasion dans ma formation MMI, d'apprendre à réaliser un jeu vidéo en Javascript sur internet. J'ai conçu ce jeu où le joueur prend le contrôle d'un chien suivi par un fantôme et son but est de s'échapper de lui en esquivant les ennemis qu'il va rencontrer sur son chemin."
+        },
+        "bfa": {
+            "title": "Publicité BFA",
+            "description": "Voici une publicité réalisée en 3 jours de travail en Motion Design pour une banque en ligne totalement fictive.",
+            "pourquoi": "J'ai réalisé cette publicité dans un premier temps car à ce moment-là, le Motion Design était une discipline que je souhaitais découvrir et ce projet était l'occasion de développer mes compétences dans un projet concret et intéressant."
+        },
+        "docuIA": {
+            "title": "Documentaire sur l'Intelligence Artificielle",
+            "description": "Dans le cadre d'un projet de groupe, nous avons réalisé un documentaire de 8 minutes sur l'intelligence artificielle qui évoque la concurrence à l'intelligence humaine et savoir s'il y a une vraie concurrence entre les 2 intelligences. J'ai réalisé le montage et la post-production du documentaire à l'aide du logiciel de montage Davinci Resolve. En groupe, nous avons rédigé le contenu du documentaire avec l'aide d'interviews de professionnels du milieu de l'IA."
+        },
+        "fourchette": {
+            "title": "Publicité pour une fourchette",
+            "description": "Dans le cadre d'un projet de groupe, la consigne était de réaliser une publicité qui fasse effet sur un objet insolite. Pour cela, nous avons choisi une fourchette en accentuant le côté sensuel des formes arrondies de la fourchette. Je me suis occupé de la partie prise de vue en filmant les différents plans à partir d'un storyboard, puis je me suis occupé entièrement du montage à l'aide du logiciel de montage Premiere Pro, en passant par les effets, le son ou encore la colorimétrie."
+        },
+        "video_metier": {
+            "title": "Vidéo de présentation 'Monteur'",
+            "description": "À la suite d'une interview réalisée avec une monteuse vidéo professionnelle, en groupe, nous avons réalisé une vidéo de présentation du métier de monteur vidéo. Lors de l'interview, j'ai filmé plein de plans séquences et de transitions que j'ai par la suite montés à l'aide du logiciel de montage Premiere Pro pour le rendu que l'on souhaitait."
+        },
+        "blender": {
+            "title": "Modélisation 3D",
+            "description": "Dans le cadre d'un projet universitaire sur la découverte de la 3D, nous avions comme consigne de réaliser une scène 3D représentant ce que l'on veut. La seule contrainte était qu'il faut apercevoir un cube de n'importe quel moyen au milieu de la scène. J'ai donc décidé de reprendre un univers que j'aime beaucoup, qui est le Japon, et de créer un temple japonais cubique avec une ambiance associée comme décor.",
+            "pourquoi": "La 3D m'a toujours intéressé mais je n'avais jamais osé sauter le pas dans l'apprentissage car je trouvais ce domaine très complexe. À l'aide de ce projet où j'ai pu développer cette compétence de manière encadrée, j'ai pu développer mon intérêt pour la 3D et je compte bien continuer à apprendre dans ce domaine."
+        },
+        "data": {
+            "title": "Data Visualisation",
+            "description": "Dans le cadre d'un projet universitaire, nous avions pour consigne de réaliser une data visualisation sur un sujet de notre choix. J'ai donc choisi de réaliser une data visualisation sur l'évolution météorologique au cours du temps. Pour cela, j'ai développé un tableau de bord présentant plusieurs graphiques illustrant les données nécessaires à la compréhension de l'évolution des températures et des divers phénomènes météorologiques. J'ai également effectué des calculs mathématiques de prévisions mais également pour comprendre davantage les résultats obtenus sur les graphiques."
+        },
+        "labyrinthe": {
+            "title": "Jeu vidéo Labyrinthe",
+            "description": "Dans le cadre d'un projet universitaire d'apprentissage sur le développement de jeux vidéos à l'aide du langage de programmation C#, j'ai conçu un jeu où une boule se trouve dans un labyrinthe et l'objectif est de récupérer tous les cubes rouges avant la fin du temps imparti. Cependant, il est possible de déplacer 4 parties du labyrinthe pour se déplacer plus rapidement."
+        },
+        "webdoc": {
+            "title": "Web-documentaire",
+            "description": "En équipe, nous avons conçu un documentaire sur le web interactif sur le thème de notre formation 'MMI' pour découvrir concrètement ce que l'on y apprend. Ce site met l'utilisateur dans la peau d'un lycéen qui ne connaît rien à ce que l'on apprend dans la formation et vient dans un projet concret de fin de 1ère année. L'objectif est qu'à travers les différents chapitres représentant les pôles de la formation, l'utilisateur vive une expérience immersive du projet pour comprendre ce que l'on apprend dans la formation."
+        }
+    }
+}

@@ -1,0 +1,248 @@
+.header {
+    width: 100%;
+    /* margin: auto; */
+    height: 12vh;
+    position: fixed;
+    /* padding: 0 5em; */
+    top: 0;
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
+    /* border: solid red; */
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 999;
+}
+
+.header::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: -1;
+}
+
+.header ul {
+    display: none;
+}
+
+.listeHeader {
+    width: 60%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    width: 3em;
+}
+
+/* Burger */
+
+#checkbox {
+    display: none;
+}
+
+.toggle {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition-duration: .5s;
+}
+
+.bars {
+    width: 100%;
+    height: 4px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+#bar2 {
+    transition-duration: .8s;
+}
+
+#bar1,
+#bar3 {
+    width: 70%;
+}
+
+#checkbox:checked+.toggle .bars {
+    position: absolute;
+    transition-duration: .5s;
+}
+
+#checkbox:checked+.toggle #bar2 {
+    transform: scaleX(0);
+    transition-duration: .5s;
+}
+
+#checkbox:checked+.toggle #bar1 {
+    width: 100%;
+    transform: rotate(45deg);
+    transition-duration: .5s;
+}
+
+#checkbox:checked+.toggle #bar3 {
+    width: 100%;
+    transform: rotate(-45deg);
+    transition-duration: .5s;
+}
+
+#checkbox:checked+.toggle {
+    transition-duration: .5s;
+    transform: rotate(180deg);
+}
+
+
+
+.listeBurger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #07121e;
+    position: fixed;
+    top: 0;
+    left: 0;
+    gap: 2rem;
+    z-index: 100;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.show {
+    transform: translateX(0);
+}
+
+.li__burger {
+    font-size: 3rem;
+    list-style-type: none;
+}
+
+.li__burger a {
+    color: #F1F1F1;
+    text-decoration: none;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.li__burger a:hover {
+    text-decoration: underline;
+}
+
+
+/* toggle langage */
+
+
+.language {
+
+    label {
+        cursor: pointer;
+        padding: 5px;
+        border: solid 1px white;
+        border-radius: 10px;
+        position: relative;
+        font-size: 2rem;
+    }
+
+    label::before {
+        content: '';
+        position: absolute;
+        background-color: white;
+        width: 50px;
+        height: 102%;
+        /* transform: translateY(-5px); */
+        left: 0;
+        top: 0;
+        border-radius: 8px;
+        transition: transform 0.3s ease;
+        z-index: -1;
+    }
+}
+
+#languageInputDesktop input,
+#languageInputMobile input {
+    display: none;
+}
+
+.black {
+    color: black;
+}
+
+.white {
+    color: white;
+}
+
+.language.InputlanguageActive label::before {
+    transform: translateX(68px);
+    width: 54px;
+}
+
+#languageInputDesktop {
+    display: none;
+}
+
+#languageInputMobile {
+    display: block;
+}
+
+@media screen and (min-width: 768px) {
+
+    .header ul {
+        display: flex;
+    }
+
+    .header .burger {
+        display: none;
+    }
+
+    .listeBurger {
+        display: none;
+    }
+
+    #languageInputDesktop {
+        display: block;
+    }
+
+    #languageInputMobile {
+        display: none;
+    }
+
+    .language {
+
+        label {
+            font-size: 1.2rem;
+        }
+
+        label::before {
+            width: 33px;
+        }
+    }
+
+    .language.InputlanguageActive label::before {
+        transform: translateX(42px);
+        width: 36px;
+    }
+}

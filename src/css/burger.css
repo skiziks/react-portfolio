@@ -1,0 +1,42 @@
+.listeBurger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #07121e;
+    position: fixed;
+    top: 0;
+    left: 0;
+    gap: 2rem;
+    z-index: 100;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.show {
+    transform: translateX(0);
+}
+
+.li__burger {
+    font-size: 3rem;
+    list-style-type: none;
+}
+
+.li__burger a {
+    color: #F1F1F1;
+    text-decoration: none;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.li__burger a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+    .listeBurger {
+        display: none;
+    }
+}
